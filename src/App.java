@@ -40,6 +40,17 @@ public class App {
                  speed + " gear:" + gear);
         }
     }
+    
+    class MountainBike extends Bicycle {
+        void tireCheck(){
+            System.out.println("freshtires");
+        }
+        // new fields and methods defining 
+        // a mountain bike would go here
+    
+    }
+    //no hoisting for classes or objects
+    MountainBike dude = new MountainBike();
      // Create two different 
         // Bicycle objects
         Bicycle bike1 = new Bicycle();
