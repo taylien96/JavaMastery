@@ -1,11 +1,8 @@
 public class App {
     public static void main(String[] args) throws Exception {
-        int myInt = 0;
-        while(myInt < 10){
-            System.out.println(myInt);
-            myInt++;
-            myInt = myInt + 1;
+        for(int i=0;i < 5; i++){
+            System.out.printf("The value of i is: %d\n", i);
+
         }
-        
     }
 }
