@@ -14,7 +14,7 @@ public class App {
             System.out.println(fruit);
         }
         Person person1 = new Person();
-        person1.name = "joey";
+        person1.name = "joey duded";
         person1.age = 5;
         person1.speak();
     }
