@@ -1,10 +1,13 @@
 import java.util.Scanner;
-class Person {
-    String name;
-    int age;
-    void speak(){
-        System.out.println("Hello! I'm " + name);
+class Machine {
+    public String name;
+    public int code;
+    public Machine(String name, int code) {
+        System.out.println("New machine made");
+        this.name = name;
+        this.code = code;
     }
+
 };
 
 public class App {
@@ -13,9 +16,8 @@ public class App {
         for(String fruit: fruits){
             System.out.println(fruit);
         }
-        Person person1 = new Person();
-        person1.name = "joey duded";
-        person1.age = 5;
-        person1.speak();
+        Machine machine = new Machine("talos", 4);
+        System.out.println(machine.name);
+        
     }
 }
