@@ -18,6 +18,12 @@ public class App {
         }
         Machine machine = new Machine("talos", 4);
         System.out.println(machine.name);
+        String[] fruits = { "apple", "banana", "pear", "kiwi"};
+        for(String fruit: fruits){
+            System.out.println(fruit);
+        }
+        Machine machine = new Machine("talos", 4);
+        System.out.println(machine.name);
         
     }
 }
