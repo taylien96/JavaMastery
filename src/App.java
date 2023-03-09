@@ -1,7 +1,7 @@
 import java.util.Scanner;
 class Machine {
     public String name;
-    public static String description = "I am computer";
+    public final static String description = "I am computer";
     public Machine(String name) {
         System.out.println("New machine made");
         this.name = name;
@@ -23,9 +23,12 @@ public class App {
             System.out.println(fruit);
         };
         Machine machine = new Machine("talos");
-        Machine machine2 = new Machine("talos");
-        System.out.println(Machine.description);
+        Machine machine2 = new Machine("brat");
         
+        System.out.println(Machine.description);
+        System.out.println(machine.description);
+        System.out.println(machine2.name);
+        System.out.println(Math.PI);
         
     }
 }
