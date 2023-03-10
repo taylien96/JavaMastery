@@ -33,6 +33,14 @@ public class App {
         System.out.println(machine.id);
         System.out.println(machine2.id);
         System.out.println(Math.PI);
+        System.out.println(Machine.count);
+        System.out.println(machine.id);
+        System.out.println(machine2.id);
+        System.out.println(Math.PI);
+        System.out.println(Machine.count);
+        System.out.println(machine.id);
+        System.out.println(machine2.id);
+        System.out.println(Math.PI);
         
     }
 }
