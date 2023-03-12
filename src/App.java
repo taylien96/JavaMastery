@@ -18,5 +18,8 @@ public class App {
         sc.append("name is jeff")
         .append(" sup");
         System.out.printf("Total cost %d; number %d\n", 50, 300);
+        for(int i = 0; i<20; i++){
+            System.out.printf("%2d: some text here\n", i);
+        }
     }
 }
