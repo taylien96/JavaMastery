@@ -17,5 +17,6 @@ public class App {
         StringBuilder sc = new StringBuilder();
         sc.append("name is jeff")
         .append(" sup");
+        System.out.printf("Total cost %d", 50);
     }
 }
