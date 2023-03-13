@@ -7,7 +7,8 @@ class Frog {
         this.name = name;
     }
     public String toString(){
-        return id + ": " + name;
+        StringBuilder idName = new StringBuilder();
+        return idName.append(id).append(": ").append(name).toString();
     }
 }
 
