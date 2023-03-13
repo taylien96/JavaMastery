@@ -1,7 +1,13 @@
 import java.util.Scanner;
 class Frog {
+    private int id;
+    private String name;
+    public Frog(int id, String name){
+        this.id = id;
+        this.name = name;
+    }
     public String toString(){
-        return "I'm a froggy object!";
+        return id + ": " + name;
     }
 }
 
@@ -25,7 +31,7 @@ public class App {
         // for(int i = 0; i<20; i++){
         //     System.out.printf("%2d: some text here\n", i);
         // }
-        Frog frog1 = new Frog();
+        Frog frog1 = new Frog(1, "roger");
         System.out.println(frog1);
     }
 }
